@@ -8,16 +8,16 @@ namespace ConsoleTradifyTechnicalTask
     {
         static void Main(string[] args)
         {
-            int _min = 1000;
-            int _max = 9999;
+            Int32 _min = 1000;
+            Int32 _max = 9999;
             Random _random = new Random();
 
             List<Int32> list = new List<Int32>();
-            int a = 0;
+
+            Int32 counter = 0;
+
             while(list.Count < 1000)
             {
-                a++;
-
                 Int32 randomNumber = _random.Next(_min, _max);
 
                 if (!list.Contains(randomNumber) 
@@ -25,17 +25,10 @@ namespace ConsoleTradifyTechnicalTask
                     && !HaveRepeatedDigit(randomNumber.ToString()))
                 {
                     list.Add(randomNumber);
-                    Console.WriteLine(randomNumber);
-                }
-
-                if (a == 10000)
-                {
-                    Console.WriteLine("Take care!");
-                    break;
+                    counter++;
+                    Console.WriteLine(String.Format("ID({0}): {1}", counter, randomNumber));
                 }
             }
-            
-            Console.WriteLine("Hello World!");
             Console.ReadKey();
         }
 
