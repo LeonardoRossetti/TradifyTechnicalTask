@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace ConsoleTradifyTechnicalTask
 {
@@ -8,77 +7,17 @@ namespace ConsoleTradifyTechnicalTask
     {
         static void Main(string[] args)
         {
-            Int32 _min = 1000;
-            Int32 _max = 9999;
-            Random _random = new Random();
+            NumberControl numberControl = new NumberControl(1000, 9999);
 
-            List<Int32> list = new List<Int32>();
+            List<Int32> uniquePinList = numberControl.GetUniquePinList();
 
-            Int32 counter = 0;
-
-            while(list.Count < 1000)
+            for (int i = 0; i < uniquePinList.Count; i++)
             {
-                Int32 randomNumber = _random.Next(_min, _max);
-
-                if (!list.Contains(randomNumber) 
-                    && !HaveIncrementalNumber(randomNumber.ToString())
-                    && !HaveRepeatedDigit(randomNumber.ToString()))
-                {
-                    list.Add(randomNumber);
-                    counter++;
-                    Console.WriteLine(String.Format("ID({0}): {1}", counter, randomNumber));
-                }
+                Console.WriteLine(String.Format("ID({0}): {1}", i, uniquePinList[i]));
             }
+            
             Console.ReadKey();
         }
-
-        /// <summary>
-        /// Verify if the number have incremental digits, e.g. 1234, or 1248
-        /// </summary>
-        public static Boolean HaveIncrementalNumber(String number)
-        {
-            Char[] values = number.ToCharArray();
-
-            for (int i = 1; i < values.Length; i++)
-            {
-                Int32 previousValue = Convert.ToInt32(values[i - 1].ToString());
-                Int32 currentValue = Convert.ToInt32(values[i].ToString());
-
-                if ((previousValue + 1) == currentValue)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-
-        /// <summary>
-        /// Verify if the number have repeated digits, e.g. 8888, or 8863
-        /// </summary>
-        public static Boolean HaveRepeatedDigit(String number)
-        {
-            Char[] values = number.ToCharArray();
-
-            for (int i = 0; i < values.Length; i++)
-            {
-
-                Char currentNumber = values[i];
-  
-                var matchQuery = from value in values
-                                 where value == currentNumber
-                                 select value;
-
-                //If there are more than one reference of currentNumber in number
-                if (matchQuery.Count() > 1)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
-        
     }
 }
 /*
