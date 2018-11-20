@@ -1,0 +1,7 @@
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\bin\Debug\ConsoleTradifyTechnicalTask.exe.config
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\bin\Debug\ConsoleTradifyTechnicalTask.exe
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\bin\Debug\ConsoleTradifyTechnicalTask.pdb
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\obj\Debug\ConsoleTradifyTechnicalTask.csprojAssemblyReference.cache
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\obj\Debug\ConsoleTradifyTechnicalTask.csproj.CoreCompileInputs.cache
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\obj\Debug\ConsoleTradifyTechnicalTask.exe
+C:\Projects\ConsoleTradifyTechnicalTask\ConsoleTradifyTechnicalTask\obj\Debug\ConsoleTradifyTechnicalTask.pdb

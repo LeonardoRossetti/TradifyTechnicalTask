@@ -1,0 +1,17 @@
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\TradifyTechnicalTask.Tests.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\TradifyTechnicalTask.Tests.pdb
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\ConsoleTradifyTechnicalTask.exe
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\ConsoleTradifyTechnicalTask.pdb
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\ConsoleTradifyTechnicalTask.exe.config
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\obj\Debug\TradifyTechnicalTask.Tests.csprojAssemblyReference.cache
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\obj\Debug\TradifyTechnicalTask.Tests.csproj.CoreCompileInputs.cache
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\obj\Debug\TradifyTechnicalTask.Tests.csproj.CopyComplete
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\obj\Debug\TradifyTechnicalTask.Tests.dll
+C:\Projects\ConsoleTradifyTechnicalTask\TradifyTechnicalTask.Tests\obj\Debug\TradifyTechnicalTask.Tests.pdb
