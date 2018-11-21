@@ -27,7 +27,7 @@ namespace ConsoleTradifyTechnicalTask
                 }
             }
             catch(ArgumentException ex)
-            {                
+            {
                 Console.WriteLine("{0}. Parameter: {1}", ex.Message, ex.ParamName);
             }
             catch(Exception ex)

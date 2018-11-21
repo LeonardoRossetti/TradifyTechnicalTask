@@ -8,7 +8,7 @@ namespace ConsoleTradifyTechnicalTask
     {
         public PinGenerator()
         {
-            
+
         }
         
         /// <summary>
@@ -29,7 +29,7 @@ namespace ConsoleTradifyTechnicalTask
                 }
             }
 
-            return false;
+            return false; 
         }
 
         /// <summary>
